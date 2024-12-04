@@ -9,7 +9,7 @@ CCDC is a powerful method for detecting and analyzing land surface changes over 
 The seven land cover classes from the NAIP dataset were extracted into individual raster layers. Each layer, initially at a 1m spatial resolution, was aggregated to 30m resolution using the reducer function in Google Earth Engine
 **NAIP dataset:** https://data.niaid.nih.gov/resources?id=zenodo_6685694
 
-**Land Cover Classification and Training Data Selection**
+### Land Cover Classification and Training Data Selection
 
 **1. Data Preparation:**
 -  Seven land cover classes from NAIP data were extracted into individual raster layers.
