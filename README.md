@@ -7,7 +7,7 @@ The Continuous Change Detection and Classification (CCDC) [Zhe Zhu and Curtis Wo
 CCDC is a powerful method for detecting and analyzing land surface changes over time by leveraging the full range of available Landsat data. It builds a time series model for each 30m pixel using cloud-free observations, effectively capturing baseline conditions. Changes are detected by comparing the predicted values from the model with actual satellite observations, identifying deviations beyond a set threshold within a moving time window. When such deviations occur, a change is recorded, which may indicate shifts in land cover, vegetation health, or other surface characteristics. The CCDC algorithm then recalibrates the model to reflect the new conditions, allowing it to track both abrupt and gradual land cover transitions, such as deforestation or vegetation regrowth. The key parameters of the model include intercept (baseline value), slope (rate of change), magnitude (intensity of change), and three harmonic components that model annual, semi-annual, and finer periodic changes. Root mean square error (RMSE) is used to evaluate the model's fit accuracy. 
 
 The seven land cover classes from the NAIP dataset were extracted into individual raster layers. Each layer, initially at a 1m spatial resolution, was aggregated to 30m resolution using the reducer function in Google Earth Engine
-**NAIP dataset: ** https://data.niaid.nih.gov/resources?id=zenodo_6685694
+**NAIP dataset:** https://data.niaid.nih.gov/resources?id=zenodo_6685694
 
 **Land Cover Classification and Training Data Selection**
 
